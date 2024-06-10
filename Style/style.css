@@ -33,7 +33,7 @@ h1 {
   position: sticky;
   background-color: white;
   padding: 1rem 0rem;
-  top: 8rem;
+  top: 10rem;
   left: 0;
   display: flex;
   align-items: center;
@@ -85,7 +85,7 @@ h1 {
 
 .navbar-flex-container {
   display: flex;
-  padding: 2rem 3rem;
+  padding: 3rem 3rem;
   justify-content: space-between;
 }
 
@@ -155,6 +155,11 @@ h1 {
 .grid-item > .paper-title {
   font-size: 2rem;
   color: var(--font-color);
+}
+
+.grid-item > .paper-time {
+  font-family: var(--content-font);
+  color: var(--alt-font-color);
 }
 
 .grid-item > .paper-content {
