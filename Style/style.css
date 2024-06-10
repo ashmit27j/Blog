@@ -107,6 +107,9 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
+/* .menu-item {
+  background: none !important;
+} */
 
 .menu-container > .menu-list > .menu-item a {
   font-family: var(--content-font);
@@ -116,6 +119,11 @@ h1 {
 
 .menu-item a {
   text-decoration: none;
+  background-color: transparent;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
 }
 
 .image-container {
